@@ -14,6 +14,11 @@
 		3CFDB8F21EA837BE00D55C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFDB8F01EA837BE00D55C58 /* LaunchScreen.storyboard */; };
 		3CFDB8FD1EA837BE00D55C58 /* TripGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDB8FC1EA837BE00D55C58 /* TripGalleryTests.swift */; };
 		3CFDB9081EA837BE00D55C58 /* TripGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDB9071EA837BE00D55C58 /* TripGalleryUITests.swift */; };
+		3CFDB9161EA83D6A00D55C58 /* TblViewControllerTripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDB9151EA83D6A00D55C58 /* TblViewControllerTripTableViewController.swift */; };
+		3CFDB9181EA83E1A00D55C58 /* TableViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDB9171EA83E1A00D55C58 /* TableViewControllerTripInfo.swift */; };
+		3CFDB91B1EA8482B00D55C58 /* Melbourne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CFDB9191EA8482B00D55C58 /* Melbourne.jpg */; };
+		3CFDB91C1EA8482B00D55C58 /* Sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CFDB91A1EA8482B00D55C58 /* Sydney.jpg */; };
+		3CFDB91E1EA8488B00D55C58 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDB91D1EA8488B00D55C58 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		3CFDB9031EA837BE00D55C58 /* TripGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFDB9071EA837BE00D55C58 /* TripGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripGalleryUITests.swift; sourceTree = "<group>"; };
 		3CFDB9091EA837BE00D55C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFDB9151EA83D6A00D55C58 /* TblViewControllerTripTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTripTableViewController.swift; sourceTree = "<group>"; };
+		3CFDB9171EA83E1A00D55C58 /* TableViewControllerTripInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerTripInfo.swift; sourceTree = "<group>"; };
+		3CFDB9191EA8482B00D55C58 /* Melbourne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Melbourne.jpg; sourceTree = "<group>"; };
+		3CFDB91A1EA8482B00D55C58 /* Sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sydney.jpg; sourceTree = "<group>"; };
+		3CFDB91D1EA8488B00D55C58 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,12 @@
 				3CFDB8E71EA837BE00D55C58 /* AppDelegate.swift */,
 				3CFDB8E91EA837BE00D55C58 /* ViewController.swift */,
 				3CFDB8EB1EA837BE00D55C58 /* Main.storyboard */,
+				3CFDB91D1EA8488B00D55C58 /* Trip.swift */,
+				3CFDB9171EA83E1A00D55C58 /* TableViewControllerTripInfo.swift */,
+				3CFDB9151EA83D6A00D55C58 /* TblViewControllerTripTableViewController.swift */,
 				3CFDB8EE1EA837BE00D55C58 /* Assets.xcassets */,
+				3CFDB9191EA8482B00D55C58 /* Melbourne.jpg */,
+				3CFDB91A1EA8482B00D55C58 /* Sydney.jpg */,
 				3CFDB8F01EA837BE00D55C58 /* LaunchScreen.storyboard */,
 				3CFDB8F31EA837BE00D55C58 /* Info.plist */,
 			);
@@ -233,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CFDB8F21EA837BE00D55C58 /* LaunchScreen.storyboard in Resources */,
+				3CFDB91C1EA8482B00D55C58 /* Sydney.jpg in Resources */,
+				3CFDB91B1EA8482B00D55C58 /* Melbourne.jpg in Resources */,
 				3CFDB8EF1EA837BE00D55C58 /* Assets.xcassets in Resources */,
 				3CFDB8ED1EA837BE00D55C58 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFDB91E1EA8488B00D55C58 /* Trip.swift in Sources */,
 				3CFDB8EA1EA837BE00D55C58 /* ViewController.swift in Sources */,
+				3CFDB9161EA83D6A00D55C58 /* TblViewControllerTripTableViewController.swift in Sources */,
+				3CFDB9181EA83E1A00D55C58 /* TableViewControllerTripInfo.swift in Sources */,
 				3CFDB8E81EA837BE00D55C58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
